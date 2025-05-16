@@ -22,6 +22,11 @@ This project builds a fraud detection pipeline using a real-world-style financia
 - Includes merchant codes, chip usage, credit info, and fraud labels
 - Highly imbalanced (fraud ~0.1%)
 
+This project uses publicly available financial transaction data from Kaggle:
+
+Kaggle Dataset: Credit Card Fraud Detection
+📎 [Link to Dataset](https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets?select=cards_data.csv)
+
 ---
 
 ## ✅ Project Goals
