@@ -38,7 +38,7 @@ Kaggle Dataset: Credit Card Fraud Detection
 
 ---
 
-## ✅ EDA Results (Exploratory Data Analysis
+## 📊 EDA Results (Exploratory Data Analysis)
 
 ### Charts showing inital data analysis for Phase 2
 ![amount_distributions](./outputs/eda_results/amount_distributions.png)
