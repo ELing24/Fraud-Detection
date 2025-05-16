@@ -1,0 +1,50 @@
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=5, n_estimators=100; total time= 4.7min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=5, n_estimators=200; total time= 7.9min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=5, n_estimators=200; total time= 7.9min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=5, n_estimators=200; total time= 7.9min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=5, n_estimators=100; total time= 4.6min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=5, n_estimators=100; total time= 4.7min
+[CV] END max_depth=20, max_features=sqrt, min_samples_leaf=10, n_estimators=300; total time=13.1min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=10, n_estimators=300; total time=13.1min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=10, n_estimators=300; total time=13.2min
+[CV] END max_depth=20, max_features=sqrt, min_samples_leaf=10, n_estimators=300; total time=13.2min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=10, n_estimators=300; total time=13.4min
+[CV] END max_depth=20, max_features=sqrt, min_samples_leaf=10, n_estimators=300; total time=13.4min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=10, n_estimators=200; total time= 7.9min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=10, n_estimators=200; total time= 8.0min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=10, n_estimators=200; total time= 7.9min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=5, n_estimators=100; total time= 4.0min
+[CV] END max_depth=20, max_features=sqrt, min_samples_leaf=5, n_estimators=100; total time= 4.5min
+[CV] END max_depth=20, max_features=sqrt, min_samples_leaf=5, n_estimators=100; total time= 4.5min
+[CV] END max_depth=20, max_features=sqrt, min_samples_leaf=5, n_estimators=100; total time= 4.6min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=5, n_estimators=100; total time= 3.9min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=5, n_estimators=100; total time= 4.0min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=5, n_estimators=200; total time= 8.7min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=5, n_estimators=200; total time= 8.6min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=5, n_estimators=200; total time= 8.9min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=1, n_estimators=100; total time= 3.7min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=1, n_estimators=100; total time= 3.6min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=1, n_estimators=100; total time= 3.7min
+[CV] END max_depth=10, max_features=sqrt, min_samples_leaf=10, n_estimators=300; total time=10.6min
+[CV] END max_depth=10, max_features=sqrt, min_samples_leaf=10, n_estimators=300; total time=10.5min
+[CV] END max_depth=10, max_features=sqrt, min_samples_leaf=10, n_estimators=300; total time=10.4min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=10, n_estimators=300; total time=10.4min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=10, n_estimators=300; total time=10.3min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=10, n_estimators=200; total time= 6.8min
+[CV] END max_depth=10, max_features=log2, min_samples_leaf=10, n_estimators=300; total time= 9.2min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=10, n_estimators=200; total time= 5.6min
+[CV] END max_depth=20, max_features=log2, min_samples_leaf=10, n_estimators=200; total time= 4.3min
+
+Best Parameters: {'n_estimators': 100, 'min_samples_leaf': 5, 'max_features': 'log2', 'max_depth': 10}
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9998    0.8696    0.9301   2688312
+           1     0.0064    0.8316    0.0127      2708
+
+    accuracy                         0.8695   2691020
+   macro avg     0.5031    0.8506    0.4714   2691020
+weighted avg     0.9988    0.8695    0.9292   2691020
+

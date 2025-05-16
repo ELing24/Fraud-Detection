@@ -1,0 +1,6 @@
+data/*.csv
+data/*.json
+outputs/*.pkl
+outputs/tableau/*.csv
+venv
+outputs/.DS_Store
