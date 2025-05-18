@@ -63,10 +63,10 @@ The charts generated are the amount distributions, correlation matrix, credit sc
 - **Accuracy:** 99.90%
 
 <p>📌 <strong>Confusion Matrix:</strong></p>
-<img src="./outputs/train_model_result/refined_model_confusion_matrix.png" width="500">
+<img src="./outputs/train_model_result/original_model_confusion_matrix.png" width="500">
 
 <p>📌 <strong>Feature Importance:</strong></p>
-<img src="./outputs/train_model_result/refined_model_feature_importance.png" width="500">
+<img src="./outputs/train_model_result/original_model_feature_importance.png" width="500">
 
 
 <sub>📄 Source: [`original_model_snapshot.txt`](./outputs/train_model_result/original_model_snapshot.txt)</sub>
