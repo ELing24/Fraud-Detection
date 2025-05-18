@@ -39,8 +39,9 @@ Kaggle Dataset: Credit Card Fraud Detection
 ---
 
 ## 📊 EDA Results (Exploratory Data Analysis)
-
 ### Charts showing inital data analysis for Phase 2
+The charts generated are the amount distributions, correlation matrix, credit score, fraud by day, fraud by hour, fraud distributions, top merchant categories, and total debt distributions. By creating EDA Results, it helps visualize patterns for the feature engineering phase.
+
 ![amount_distributions](./outputs/eda_results/amount_distributions.png)
 ![correlation_matrix](./outputs/eda_results/correlation_matrix.png)
 ![credit_score](./outputs/eda_results/credit_score.png)
@@ -113,7 +114,7 @@ A fraud monitoring dashboard built with Tableau shows:
 ## 💡 How to Run This Project
 
 1. Clone this repo
-2. Install dependencies (Python ≥ 3.8, pandas, scikit-learn, matplotlib, seaborn)
+2. Install dependencies Using Requirements.txt file (Python ≥ 3.8, pandas, scikit-learn, matplotlib, seaborn)
 3. Run the notebooks:
    - `clean_data.py`
    - `explore_data_analysis.ipynb`
@@ -132,7 +133,7 @@ A fraud monitoring dashboard built with Tableau shows:
 | `feature_engineering.ipynb` | Adds behavioral and temporal fraud features |
 | `train_model.ipynb` | Trains and tunes a random forest model with `RandomizedSearchCV` |
 | `fraud_predictions_for_tableau.csv` | CSV used for Tableau dashboard |
-| `images/*.png` | Visualizations and confusion matrices for README |
+| `outputs` | Visualizations and confusion matrices for README |
 | `refined_model_snapshot.txt` | Final model performance snapshot |
 | `original_model_snapshot.txt` | Baseline model metrics |
 
