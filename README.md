@@ -39,16 +39,18 @@ Kaggle Dataset: Credit Card Fraud Detection
 ---
 
 ## 📊 EDA Results (Exploratory Data Analysis)
-
 ### Charts showing inital data analysis for Phase 2
-![amount_distributions](./outputs/eda_results/amount_distributions.png)
-![correlation_matrix](./outputs/eda_results/correlation_matrix.png)
-![credit_score](./outputs/eda_results/credit_score.png)
-![fraud_by_day](./outputs/eda_results/fraud_by_day.png)
-![fraud_by_hour](./outputs/eda_results/fraud_by_hour.png)
-![fraud_distribution](./outputs/eda_results/fraud_distribution.png)
-![top_merchant_category](./outputs/eda_results/top_merchant_category.png)
-![total_debt_distribution](./outputs/eda_results/total_debt_distribution.png)
+The charts generated are the amount distributions, correlation matrix, credit score, fraud by day, fraud by hour, fraud distributions, top merchant categories, and total debt distributions. By creating EDA Results, it helps visualize patterns for the feature engineering phase.
+
+<img src="./outputs/eda_results/amount_distributions.png" width="500">
+<img src="./outputs/eda_results/correlation_matrix.png" width="500">
+<img src="./outputs/eda_results/credit_score.png" width="500">
+<img src="./outputs/eda_results/fraud_by_day.png" width="500">
+<img src="./outputs/eda_results/fraud_by_hour.png" width="500">
+<img src="./outputs/eda_results/fraud_distribution.png" width="500">
+<img src="./outputs/eda_results/top_merchant_category.png" width="500">
+<img src="./outputs/eda_results/total_debt_distribution.png" width="500">
+
 
 ---
 
@@ -60,10 +62,12 @@ Kaggle Dataset: Credit Card Fraud Detection
 - **F1 (fraud):** 0.2367  
 - **Accuracy:** 99.90%
 
-📌 Confusion Matrix:
-![Original Confusion Matrix](./outputs/train_model_result/original_model_confusion_matrix.png)  
-📌 Feature Importance:
-![Original Feature Importance](./outputs/train_model_result/original_model_feature_importance.png)
+<p>📌 <strong>Confusion Matrix:</strong></p>
+<img src="./outputs/train_model_result/original_model_confusion_matrix.png" width="500">
+
+<p>📌 <strong>Feature Importance:</strong></p>
+<img src="./outputs/train_model_result/original_model_feature_importance.png" width="500">
+
 
 <sub>📄 Source: [`original_model_snapshot.txt`](./outputs/train_model_result/original_model_snapshot.txt)</sub>
 
@@ -75,10 +79,12 @@ Kaggle Dataset: Credit Card Fraud Detection
 - **F1 (fraud):** 0.0127  
 - **Accuracy:** 86.95%
 
-📌 Confusion Matrix:
-![Refined Confusion Matrix](./outputs/train_model_result/refined_model_confusion_matrix.png)  
-📌 Feature Importance:
-![Refined Feature Importance](./outputs/train_model_result/refined_model_feature_importance.png)
+<p>📌 <strong>Confusion Matrix:</strong></p>
+<img src="./outputs/train_model_result/refined_model_confusion_matrix.png" width="500">
+
+<p>📌 <strong>Feature Importance:</strong></p>
+<img src="./outputs/train_model_result/refined_model_feature_importance.png" width="500">
+
 
 <sub>📄 Source: [`refined_model_snapshot.txt`](./outputs/train_model_result/refined_model_snapshot.txt)</sub>
 
@@ -106,14 +112,14 @@ A fraud monitoring dashboard built with Tableau shows:
 - Merchant trends and fraud hotspots
 - Time-of-day and location-based insights
 
-📎 [Link to Dashboard](https://public.tableau.com/)
+📎 [Link to Dashboard](https://public.tableau.com/views/FraudAnalysis_17475417268400/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
 ## 💡 How to Run This Project
 
 1. Clone this repo
-2. Install dependencies (Python ≥ 3.8, pandas, scikit-learn, matplotlib, seaborn)
+2. Install dependencies Using Requirements.txt file (Python ≥ 3.8, pandas, scikit-learn, matplotlib, seaborn)
 3. Run the notebooks:
    - `clean_data.py`
    - `explore_data_analysis.ipynb`
@@ -132,7 +138,7 @@ A fraud monitoring dashboard built with Tableau shows:
 | `feature_engineering.ipynb` | Adds behavioral and temporal fraud features |
 | `train_model.ipynb` | Trains and tunes a random forest model with `RandomizedSearchCV` |
 | `fraud_predictions_for_tableau.csv` | CSV used for Tableau dashboard |
-| `images/*.png` | Visualizations and confusion matrices for README |
+| `outputs` | Visualizations and confusion matrices for README |
 | `refined_model_snapshot.txt` | Final model performance snapshot |
 | `original_model_snapshot.txt` | Baseline model metrics |
 
